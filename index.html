@@ -4,8 +4,20 @@
 		<meta charset="utf-8">
 		<title>My first three.js app</title>
 		<style>
-			body { margin: 0; }
+			body {
+				background:#000;
+				color: #eee;
+			}
+
+			a {
+				color: #0080ff;
+			}
+
+			b {
+				color: orange
+			}
 		</style>
+        <link type="text/css" rel="stylesheet" href="../style.css">
     <script type="importmap">
             {
                 "imports": {
@@ -14,9 +26,13 @@
                 }
             }
         </script>
-		<script type="module" crossorigin src="assets/index-f6fbd8c9.js"></script>
+		<script type="module" crossorigin src="assets/index-8df37ccb.js"></script>
 	</head>
 	<body>
+
+        <div id="info">Fly Controls<br/>
+            <b>WASD</b> move, <b>R|F</b> up | down, <b>Q|E</b> roll, <b>up|down</b> pitch, <b>left|right</b> yaw
+            </div>
 		
         <script src = "../node_modules/three/build/three.js"></script> 
 
